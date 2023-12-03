@@ -7,7 +7,7 @@ interface ICard {
 
 const ButtonLogin = ({textBtn, event}: ICard) => {
     return (
-        <Button color='black' fontWeight='bold' padding='1.5rem' minWidth='150px' colorScheme="orange" onClick={event}>{textBtn}</Button>
+        <Button color='blue.500' fontWeight='bold' padding='1.5rem' minWidth='150px' onClick={event}>{textBtn}</Button>
     )
 }
 

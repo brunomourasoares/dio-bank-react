@@ -3,9 +3,9 @@ import { Box, Container } from "@chakra-ui/react"
 
 const Footer = () => {
   return (
-    <Container minW='100vw' minH='17vh' centerContent borderTop='1px solid black' marginTop='100px' backgroundColor='gray.300'>
-      <Box color='black' fontWeight='bold' marginTop='20px'>
-        <p>Dio Bank &copy;</p>
+    <Container minW='100vw' minH='14.8vh' centerContent marginTop='100px' backgroundColor='blue.500'>
+      <Box color='white' fontWeight='bold' marginTop='55px'>
+        <p>DIO Bank</p>
       </Box>
     </Container>
   )
